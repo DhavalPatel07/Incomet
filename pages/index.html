@@ -10,6 +10,7 @@
     <!--css styles starts-->
     <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
+    <link rel="stylesheet" type="text/css" href="../css/homepage.css">
     <!--css styles ends-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,6 +19,10 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!--[if gte IE 9]<style type="text/css">.gradient {filter: none;}</style><![endif]-->
+
+    <!-- All Scripts starts here -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/slick.min.js"></script>
 </head>
 <body>
 <!-- Header -->
@@ -33,7 +38,7 @@
                 <div class="flex-wrap no-wrap align-center">
                     <div class="flex-wrap address-bar">
                         <div class="address con-wrap">
-                            <a class="flex-wrap no-wrap" href="#" target="_blank" title="Address"> <img src="../images/address.svg"> Sector 16A, Noida, Uttar Pradesh 201301</a>
+                            <!-- <a class="flex-wrap no-wrap" href="#" target="_blank" title="Address"> <img src="../images/address.svg"> Sector 16A, Noida, Uttar Pradesh 201301</a> -->
                         </div>
                         <div class="number con-wrap">
                             <a class="flex-wrap no-wrap" href="tel:918860059273" title="Call"><img src="../images/call-icon.svg">+91-8860059273</a>
@@ -55,6 +60,11 @@
             </div>
         </div>
         <div class="menu-open-wrap">
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <input class="menu-box" type="checkbox" name="">
             <nav class="navigation-bar flex-wrap align-center flex-end">
                 <ul>
@@ -99,20 +109,646 @@
     </div>
 </header>
 <!-- / End Header -->
-<section class="hero-section bgimage" style="background-image: url(../images/banner-image.jpg); height: 100vh; width: 100%;"></section>
 
+<!-- Slider Section -->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.HeroSlider').slick({
+      centerMode: false,
+      slidesToShow: 1,
+      adaptiveHeight: false,
+      infinite: true,       
+    });
+});
+</script>
+
+<section class="hero-section bgimage">
+    <div class="HeroSlider">
+        <div class="hero-wrapper">
+            <div class="hero-img  bgimage" style="background-image: url(../images/banner-image.jpg);"></div>
+            <div class="flex-wrap align-center">
+                <div class="hero-text">
+                    <div class="toptitle">The Leading E-Learning Hub</div>
+                    <h2>India's Stock Market Powerhouse : <br />
+                        Igniting Success, <br />
+                        Transforming Live since 2019</h2>
+                    <div class="hero-text">Over 16,000 entrepreneurs have been created successfully!</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wrapper">
+            <div class="hero-img  bgimage" style="background-image: url(../images/banner-image.jpg);"></div>
+            <div class="flex-wrap align-center">
+                <div class="hero-text">
+                    <div class="toptitle">The Leading E-Learning Hub</div>
+                    <h2>India's Stock Market Powerhouse : <br />
+                        Igniting Success, <br />
+                        Transforming Live since 2019</h2>
+                    <div class="hero-text">Over 16,000 entrepreneurs have been created successfully!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Slider Section -->
+
+<!-- Income Section -->
+<section class="income-section">
+    <div class="container white-container">
+        <div class="income-title">
+            <h1>Why Incomet is one stop destination for Entrepreneurs?</h1>        
+            <span class="line"></span>
+        </div>
+        <div class="flex-wrap">
+
+            <div class="col-4 col-sm-12 income-box">
+                <div class="text-center">
+                    <div class="icon-box">
+                        <img src="../images/icon.svg" alt="icon" />
+                    </div>
+                    <h3>Get Funded with <br />Incomet</h3>
+                </div>
+                <div class="content-area">
+                    <p>Our programs assist traders in obtaining funding, ensuring that financial constraints never hinder their path to success.</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-sm-12 income-box">
+                <div class="text-center">
+                    <div class="icon-box">
+                        <img src="../images/icon2.svg" alt="icon" />
+                    </div>
+                    <h3>Be your own <br />CEO</h3>
+                </div>
+                <div class="content-area">
+                    <p>Your Gateway to CEOship. From A to Z, we assist you in every aspect of building your own asset management company and it's foundation. Trust us to pave the way to your prosperous future.</p>
+                </div>
+            </div>
+
+            <div class="col-4 col-sm-12 income-box">
+                <div class="text-center">
+                    <div class="icon-box">
+                        <img src="../images/icon3.svg" alt="icon" />
+                    </div>
+                    <h3>self <br />employment</h3>
+                </div>
+                <div class="content-area">
+                    <p>Incomet programs empower you to become self-employed by mastering the skills of trading and investing. Harness the potential to generate a steady stream of income daily</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Income Section -->
+
+
+<!-- Why Choose Us -->
+<section class="why-choose-us">
+    <div class="container">
+        <div class="section-title-info text-center">
+            <h2 class="white-bg-title">Why Choose Us</h2>
+            <p>We understand that financial literacy is crucial, especially in today's rapidly evolving market. At Incomet, our vision is to empower the exceptional Indian youth with comprehensive stock market education, enabling them to make informed trading decisions. Here's why we are the preferred choice for stock market training in India:</p>
+        </div>
+        <div class="flex-wrap choose-flex-wrap">
+
+            <div class="col-6 col-sm-12 choose-box">
+                <div class="flex-wrap">
+                    <div class="left-choose-img">
+                        <img src="../images/icon_01.svg" alt="Image" />
+                    </div>
+                    <div class="right-choose-text">
+                        <h4>Unparalleled Expertise</h4>
+                        <p>Incomet stands out as a trusted institute renowned for its expertise in stock market training. Our ateam of experienced</p>
+                        <div class="ctm-btn">
+                            <a href="#" title="Read More">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-12 choose-box">
+                <div class="flex-wrap">
+                    <div class="left-choose-img">
+                        <img src="../images/icon_02.svg" alt="Image" />
+                    </div>
+                    <div class="right-choose-text">
+                        <h4>Funding Initiative</h4>
+                        <p>At Incomet, we understand the significance of financial support in the dynamic world of trading. Our dedicated team is committed to</p>
+                        <div class="ctm-btn">
+                            <a href="#" title="Read More">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-sm-12 choose-box">
+                <div class="flex-wrap">
+                    <div class="left-choose-img">
+                        <img src="../images/icon_04.svg" alt="Image" />
+                    </div>
+                    <div class="right-choose-text">
+                        <h4>Incubate yourself</h4>
+                        <p>From opening your own fintech company to establishing a thriving business and venturing into asset management, we equip</p>
+                        <div class="ctm-btn">
+                            <a href="#" title="Read More">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-12 choose-box">
+                <div class="flex-wrap">
+                    <div class="left-choose-img">
+                        <img src="../images/icon_03.svg" alt="Image" />
+                    </div>
+                    <div class="right-choose-text">
+                        <h4>Trusted Reputation</h4>
+                        <p>Incomet is proud to have earned a reputation as one of India's most trusted institutes for stock market training. Our commitment to</p>
+                        <div class="ctm-btn">
+                            <a href="#" title="Read More">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bottom-text">
+            <p>When you choose us, you choose a reliable partner dedicated to your growth. Our proven track record, combined with our commitment to innovation, makes us the preferred choice for traders worldwide.</p>
+        </div>
+    </div>
+</section>
+<!-- Why Choose Us -->
+
+<!-- Our Programs -->
+<section class="Our-Programs-section">
+    <div class="container white-container">
+        <div class="section-title">
+            <h2>Our Programs</h2>
+        </div>
+        <div class="flex-wrap about-wrapper">
+            <div class="col-6 col-sm-12 leftarea">
+                <div class="top-wrap">
+                    <h2>About <br>Trader's Clan</h2>
+                    <span class="line"></span>
+                    <p>Ready to conquer the world of Wealth? Say hello to TRADER'S CLAN, the gateway to your financial liberation that equips you with the skills for a lifetime of wealth generation, while offering unprecedented funding opportunities and the guidance to establish your own asset management company</p>
+                </div>
+                <div class="more-text">
+                    <ul>
+                        <li>Become a funded trader</li>
+                        <li>Be your own CEO</li>
+                        <li>Wealth generation hacks</li>
+                        <li>New skillset for lifetime</li>
+                        <li>Assistance by fund managers</li>
+                        <li>Become a professional certified trader</li>
+                    </ul>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-12 right--image">
+                <img src="../images/img1.png" />
+            </div>
+        </div>
+
+        <div class="flex-wrap order-2">
+            <div class="col-6 col-sm-12 right--image">
+                <img src="../images/img2.png" />
+            </div>
+            <div class="col-6 col-sm-12">
+                <div class="top-wrap">
+                    <h2>About POT</h2>
+                    <h5>Becoming a stock entrepreneur is now super-easy with incomet! Enroll now and begin your journey</h5>
+                    <span class="line"></span>
+                    <p>POT or Professional Options Trading course is the latest course which Incomet is bringing to the table! It is curated by India’s best mentors who have over 6 years of experience in this field. Their expertise and market knowledge will help you grasp knowledge quicky and make money early!</p>
+                </div>
+                <div class="more-text">
+                    <ul>
+                        <li>Certification</li>
+                        <li>Training Materials</li>
+                        <li>Live Trading Sessions</li>
+                        <li>Interactive Live Classes</li>
+                        <li>Doubt Clearing Sessions</li>
+                        <li>Lifetime Telegram Channel</li>
+                    </ul>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bottom-change-bg bluebg"></div>
+</section>
+<!-- Our Programs -->
+
+<!-- 7 Benefits  -->
+<section class="banefit-section bluebg">
+    <div class="container">
+        <div class="center-round">
+            <h2>7 Benefits Of Joining Incomet</h2>
+        </div>
+        <div class="flex-wrap">
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Discover how to become a highly successful trader,</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Secure top placements at equity firms, broker houses,</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Elevate your resume with certification from a top</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Secure lifetime alumni status in the biggest finance</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Proven backtested strategies and training by a</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Create a personalised system like big Institutions</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="dvl-box">
+                <div class="dvl-wrap">
+                    <p>Get Funding upto 5 crores for Trading at 0% interest</p>
+                    <div class="ctm-btn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- 7 Benefits  -->
+
+
+
+<!-- Happy Client -->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.ClientSlider').slick({
+      centerMode: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      adaptiveHeight: false,
+      infinite: true,
+    });
+});
+</script>
+<section class="happy-client-section bluebg">
+    <div class="container white-container">
+        <div class="happy-clients-title">
+            <h5>Happy Clients</h5>
+            <h2>Hear from satisfied entrepreneurs who have chosen Incomet as their trusted partner in achieving business success.</h2>
+        </div>
+
+        <div class="ClientSlider">
+            <div class="client-wrap">
+                <div class="member-image bgimage" style="background-image:url(../images/img1.jpg)"></div>
+                <div class="team-dvl-wrap">
+                    <div class="member-name">Jaideep Prajapati</div>
+                    <div class="birth-date">Batch : 19th July 2022</div>
+                    <p>An amazing learning experience on investing, discipline, and wealth building was provided by the Sep 3.0 batch, with great mentors and practical insights, as expressed with gratitude in this testimonial. "SEP course changed my life, Incomet made me self-made. Now a full-time trader and investor, thanks to Karan sir and Incomet team. Best stock market career start with Incomet SEP course</p>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="client-wrap">
+                <div class="member-image bgimage" style="background-image:url(../images/img2.jpg)"></div>
+                <div class="team-dvl-wrap">
+                    <div class="member-name">Jaideep Prajapati</div>
+                    <div class="birth-date">Batch : 19th July 2022</div>
+                    <p>An amazing learning experience on investing, discipline, and wealth building was provided by the Sep 3.0 batch, with great mentors and practical insights, as expressed with gratitude in this testimonial. "SEP course changed my life, Incomet made me self-made. Now a full-time trader and investor, thanks to Karan sir and Incomet team. Best stock market career start with Incomet SEP course</p>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="client-wrap">
+                <div class="member-image bgimage" style="background-image:url(../images/img3.jpg)"></div>
+                <div class="team-dvl-wrap">
+                    <div class="member-name">Jaideep Prajapati</div>
+                    <div class="birth-date">Batch : 19th July 2022</div>
+                    <p>An amazing learning experience on investing, discipline, and wealth building was provided by the Sep 3.0 batch, with great mentors and practical insights, as expressed with gratitude in this testimonial. "SEP course changed my life, Incomet made me self-made. Now a full-time trader and investor, thanks to Karan sir and Incomet team. Best stock market career start with Incomet SEP course</p>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+            <div class="client-wrap">
+                <div class="member-image bgimage" style="background-image:url(../images/img1.jpg)"></div>
+                <div class="team-dvl-wrap">
+                    <div class="member-name">Jaideep Prajapati</div>
+                    <div class="birth-date">Batch : 19th July 2022</div>
+                    <p>An amazing learning experience on investing, discipline, and wealth building was provided by the Sep 3.0 batch, with great mentors and practical insights, as expressed with gratitude in this testimonial. "SEP course changed my life, Incomet made me self-made. Now a full-time trader and investor, thanks to Karan sir and Incomet team. Best stock market career start with Incomet SEP course</p>
+                    <span class="line"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="meet-team">
+            <h2>Meet Our <br />World Class Team</h2>
+            <div class="flex-wrap">
+
+                <div class="col-4 col-sm-12">
+                    <div class="meet-team-member bgimage" style="background-image: url(../images/t1.png)"></div>
+                    <h4>Kanishk Gupta</h4>
+                    <h5>Founder & Ceo At Incomet</h5>
+                    <span class="line"></span>
+                    <p>With a vision of making india financially literate , I kanishk gupta with my team is hustling day & night to serve the best to you and our nation</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-sm-12">
+                    <div class="meet-team-member bgimage" style="background-image: url(../images/t2.png)"></div>
+                    <h4>Kanishk Gupta</h4>
+                    <h5>Founder & Ceo At Incomet</h5>
+                    <span class="line"></span>
+                    <p>With a vision of making india financially literate , I kanishk gupta with my team is hustling day & night to serve the best to you and our nation</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-4 col-sm-12">
+                    <div class="meet-team-member bgimage" style="background-image: url(../images/t3.png)"></div>
+                    <h4>Kanishk Gupta</h4>
+                    <h5>Founder & Ceo At Incomet</h5>
+                    <span class="line"></span>
+                    <p>With a vision of making india financially literate , I kanishk gupta with my team is hustling day & night to serve the best to you and our nation</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<div class="grdsectino"></div>
+</section>
+<!-- Happy Client -->
+
+<!-- Guest Lecturers at incomet -->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.Expert-Team-slider').slick({
+      centerMode: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      adaptiveHeight: false,
+      infinite: true,       
+      responsive: [{
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+    });
+});
+</script>
+<section class="expert-team-section">
+    <div class="container">
+        <div class="expert-title">
+            <h2>Guest Lecturers at incomet</h2>
+            <h5>Embracing Excellence: <br>Engage with Our Prestigious <br>Guest Lecturers</h5>
+        </div>
+        <div class="Expert-Team-slider">
+            <div class="expert-wrap">
+                <div class="meet-team-member bgimage" style="background-image: url(../images/tt1.png)"></div>
+                <div class="expert-dvl-wrap">
+                    <h4>Evelina Sredovska</h4>
+                    <h5>Renowned Career Development and Personal Growth Expert</h5>
+                    <span class="line"></span>
+                    <p>Evelina Sredovska , Founder of The Career Jump Group UK , carrying deep passion for psychology, emotional intelligence, health, and wellbeing, Evelina seamlessly integrates these aspects into her work with clients and</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="expert-wrap">
+                <div class="meet-team-member bgimage" style="background-image: url(../images/tt2.png)"></div>
+                <div class="expert-dvl-wrap">
+                    <h4>Evelina Sredovska</h4>
+                    <h5>Renowned Career Development and Personal Growth Expert</h5>
+                    <span class="line"></span>
+                    <p>Evelina Sredovska , Founder of The Career Jump Group UK , carrying deep passion for psychology, emotional intelligence, health, and wellbeing, Evelina seamlessly integrates these aspects into her work with clients and</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="expert-wrap">
+                <div class="meet-team-member bgimage" style="background-image: url(../images/tt1.png)"></div>
+                <div class="expert-dvl-wrap">
+                    <h4>Evelina Sredovska</h4>
+                    <h5>Renowned Career Development and Personal Growth Expert</h5>
+                    <span class="line"></span>
+                    <p>Evelina Sredovska , Founder of The Career Jump Group UK , carrying deep passion for psychology, emotional intelligence, health, and wellbeing, Evelina seamlessly integrates these aspects into her work with clients and</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="expert-wrap">
+                <div class="meet-team-member bgimage" style="background-image: url(../images/tt2.png)"></div>
+                <div class="expert-dvl-wrap">
+                    <h4>Evelina Sredovska</h4>
+                    <h5>Renowned Career Development and Personal Growth Expert</h5>
+                    <span class="line"></span>
+                    <p>Evelina Sredovska , Founder of The Career Jump Group UK , carrying deep passion for psychology, emotional intelligence, health, and wellbeing, Evelina seamlessly integrates these aspects into her work with clients and</p>
+                    <div class="ctm-btn grdbtn">
+                        <a href="#" title="Read More">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Guest Lecturers at incomet -->
+
+
+<div class="app-img-section bluebg">
+    <div class="container">
+        <div class="mobile-app-image">
+            <img src="../images/mobile.png" />
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.LogoSlider').slick({
+      centerMode: false,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      adaptiveHeight: false,
+      infinite: true,       
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 4,
+          }
+        },
+        {
+          breakpoint: 640,
+          settings: {
+            slidesToShow: 2,
+          }
+        }
+      ]
+    });
+});
+</script>
+<section class="featured-section">
+    <div class="container">
+        <div class="sec-title">
+            <h2 class="white-bg-title">Featured On</h2>
+            <p>Some big news channels & magazines have posted our success stories</p>
+        </div>
+        <div class="slider-row">
+            <div class="LogoSlider">
+                <div class="logo-wrap">
+                    <img src="../images/aaj-tak.jpg" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo2.png" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo3.png" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo4.jpg" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo5.jpg" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/aaj-tak.jpg" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo2.png" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo3.png" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo4.jpg" alt="Logo Image" />
+                </div>
+                <div class="logo-wrap">
+                    <img src="../images/logo5.jpg" alt="Logo Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us -->
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-title">
+            <h3 class="white-bg-title">Get The Response of Your Query!</h3>
+            <h2>We are here to assist you with any questions you may have. Please choose your desired option :</h2>
+        </div>
+        <div class="flex-wrap contact-form">
+            <div class="col-6 col-sm-12 left-addressbrn">
+                <div class="flex-wrap">
+                    <div class="left-img-dvl">
+                        <img src="../images/customer-car-icon.svg" alt="Icon" />
+                    </div>
+                    <div class="content-dvl">
+                        <p>Contact Form:, please fill out the contact form below with the query and we will make it a priority to respond within 24 hours.</p>
+                    </div>
+                </div>
+                <div class="flex-wrap">
+                    <div class="left-img-dvl">
+                        <img src="../images/phone-call.svg" alt="Icon" />
+                    </div>
+                    <div class="content-dvl">
+                        <p>Call or WhatsApp: For more immediate assistance, you can call or message us directly on <a href="tel:+918860059273">+91 8860059273</a>,<br /><br />Your satisfaction is our priority!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-12 right-form-wrap">
+                <div class="form-wrap-dvl">
+                    <div class="form-row">
+                        <form>
+                            <div class="input-box">
+                                <input type="text" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="input-box">
+                                <input type="email" name="name" placeholder="Your Email">
+                            </div>
+                            <div class="select-box">
+                                <select>
+                                    <option>Trader's clan and POT</option>
+                                    <option>Trader's clan and POT 1</option>
+                                    <option>Trader's clan and POT 2</option>
+                                    <option>Trader's clan and POT 3</option>
+                                    <option>Trader's clan and POT 4</option>
+                                </select>
+                            </div>
+                            <div class="textarea-box">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <input type="submit" name="submit" value="Request A Quote">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Us -->
 
 <!-- Footer -->
 <footer class="min-footer darkblue color-white">
   <div class="container">
     <div class="flex-wrap row-wrap">
-        <div class="col-3">
+        <div class="col-3 footer-adderss">
             <h5>Get In Touch</h5>
             <address>
-                Energy Building, Tower Bgr.<br>
+                <!-- Energy Building, Tower Bgr.<br>
                 1/A, Slip Road, Film<br>
                 City, Sector 16A, Noida,<br>
-                Uttar Pradesh 201301
+                Uttar Pradesh 201301 -->
             </address>
             <div class="contct-footer">
                 <div class="link-wrap">
@@ -124,7 +760,7 @@
             </div>
         </div>
         <!-- Quick Links -->
-        <div class="col-3">
+        <div class="col-3 footer-link">
             <h5>Quick Links</h5>
             <div class="f-menu">
                 <ul>
@@ -138,7 +774,7 @@
             </div>
         </div>
         <!-- Popular Links -->
-        <div class="col-3">
+        <div class="col-3 footer-link">
             <h5>Popular Links</h5>
             <div class="f-menu">
                 <ul>
@@ -152,7 +788,7 @@
             </div>
         </div>
         <!-- News letter -->
-        <div class="col-3">
+        <div class="col-3 footer-news">
             <div class="news-form">
                 <form>
                     <div class="flex-wrap">
@@ -189,8 +825,6 @@
 </div>
 
 <!-- All Scripts starts here -->
-<script src="../js/jquery.min.js"></script>
-<script src="../js/slick.min.js"></script>
 <script src="../js/general.js"></script>  
 
 </body>

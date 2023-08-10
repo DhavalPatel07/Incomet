@@ -1,0 +1,175 @@
+.more-text { border: 1px solid #006680; padding: 30px; background: #ffffff; position:  relative; z-index:  2; }
+.more-text ul { display: -webkit-box; display: -ms-flexbox; display: flex; flex-wrap: wrap; }
+.more-text ul li { width: 50%; padding: 10px 20px 10px 0; font-size: 18px; list-style: none; color: #006680; position: relative; font-weight: 700; }
+.more-text ul li:before {content: ' '; height: 1px; width: calc(100% - 20px); position: absolute; top: 0; left: 0; background: #18677f; }
+.more-text ul li:nth-child(1):before,
+.more-text ul li:nth-child(2):before { display: none; }
+.more-text .ctm-btn { position: absolute; bottom: -10px; left: 30px; z-index:2; }
+.more-text .ctm-btn a { background-color: #2c304b; color: #fff; padding: 10px 15px; text-transform: uppercase; text-decoration:none; font-size: 18px; }
+.more-text .ctm-btn a:hover { background-color: #18677f; }
+.about-dvl-detail .white-container { padding: 50px 80px;  box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0; }
+.about-dvl-detail .line { margin: 0 0 20px; }
+.information-wrapper { align-items: center; margin-top: 10px; }
+.information-wrapper .more-text { width: 60%;}
+.information-wrapper .image-dvl-box { width: 40%; padding-left: 100px; }
+
+@media(max-width: 1200px) {
+	.about-dvl-detail .white-container { padding: 50px; }	
+}
+@media(max-width: 991px) {
+	.about-dvl-detail .white-container { padding: 50px 40px; }	
+	.information-wrapper .image-dvl-box { padding-left: 30px; }
+	.more-text ul li { width: 100%; }
+	.more-text ul li:nth-child(2):before { display: block; }
+	.more-text ul li:before { width: 100%; }
+	.more-text { padding: 20px 20px 40px; }
+}
+@media(max-width: 767px) {
+	.about-dvl-detail .white-container { padding: 50px 20px; }	
+	.information-wrapper .image-dvl-box{ width: 100%; padding-left: 0; padding-top: 50px; }
+	.information-wrapper .more-text { width: 100%; }
+	.more-text ul li { font-size: 16px; }
+}
+
+
+
+.traders-clan-section { padding-top: 50px; position: relative; overflow: hidden; }
+.traders-clan-section h2 { text-align: center; padding-bottom: 30px; }
+.traders-clan-section .flex-wrap { margin: 0 -40px; }
+.classtext-dvl-wrap { padding: 0 40px; border-right: 1px solid rgba(0,0,0,0.2); }
+.classtext-dvl-wrap:nth-child(4n+4){ border: none; }
+.classtext-dvl-wrap h4 { font-size: 30px; line-height: 1.2; }
+@media(max-width: 1200px) {
+	.classtext-dvl-wrap h4 { font-size: 26px; }
+	.classtext-dvl-wrap { padding: 0 20px; }
+	.traders-clan-section .flex-wrap { margin: 0 -20px; }
+
+}
+@media(max-width: 991px) {
+	.classtext-dvl-wrap:nth-child(even) { border: none; }
+}
+@media(max-width: 767px) {
+	.classtext-dvl-wrap h4 { font-size: 20px; }
+	.classtext-dvl-wrap { border: none !important; padding: 20px; }
+	.classtext-dvl-wrap { border-top: 1px solid  rgba(0,0,0,0.2) !important; }
+	.classtext-dvl-wrap:first-child { border-top: none !important; }
+	.classtext-dvl-wrap p:last-child { padding-bottom: 0; }
+	.traders-clan-section h2 { padding-bottom: 10px; }
+}
+
+
+
+.week-dvl-section { padding-top:  60px; padding-bottom: 60px; position: relative; overflow: hidden; }
+.week-dvl-section .container { position: relative;  z-index: 2; }
+.week-dvl-section:before {content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: calc(100% - 400px); width: 100%; background: #2c304b; }
+.sec-title { text-align:  center; max-width: 1000px; width: 100%; margin: 0 auto; }
+.sec-title p { font-size: 20px; }
+.week-dvl-section .flex-wrap { margin: 0 -30px; }
+.week-wrap { width: calc(33.33% - 60px); margin: 20px 30px; background: #ffffff; border-radius: 20px;overflow: hidden; box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0; }
+.week-wrap h5 { background: #00afc9; background: linear-gradient(90deg, #00afc9 20%, #004661 100%); color:  #fff; text-align: center; padding: 15px 10px; }
+.week-text { padding: 15px 20px; }
+.week-text p:last-child{ padding-bottom: 0; }
+
+
+@media(max-width: 991px) {
+	.week-wrap {width: calc(33.33% - 40px); margin: 20px;}
+	.week-dvl-section .flex-wrap { margin: 0 -20px; }
+	.sec-title p { font-size: 18px; }
+	
+}
+@media(max-width: 767px) {
+	.week-wrap {width: calc(100% - 40px); margin: 20px;}	
+	.sec-title p { font-size: 17px; }
+	.week-dvl-section:before { height: calc(100% -400px); }
+	.week-dvl-section { padding-bottom: 20px; padding-top: 40px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fund-round-wrapper { padding-top: 50px; }
+.fund-round-wrapper:before {
+	content: ''; position: absolute; top: 0; left: 0; right: 0; height: 400px; width: 100%; background: #2c304b;
+}
+.fund-round-wrapper .whitebg { box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0; padding: 50px 120px 80px; position: relative; z-index: 2; }
+.fund-round-wrapper p { font-size: 20px; padding-bottom: 10px; }
+.fund-round-wrapper h6 {  background: #00afc9; background: linear-gradient(90deg, #00afc9 20%, #004661 100%); color:  #fff; padding: 8px 20px; font-size: 24px; font-weight: 700; display: inline-block; letter-spacing: 0.5px; margin: 30px 0 10px; }
+.fund-round-wrapper h4 { font-size: 22px; font-weight: 400; padding-bottom: 5px; }
+.fund-round-wrapper h6 strong { font-weight: 700; }
+.fund-round-wrapper h5 { font-size: 22px; }
+
+.fund-round-wrapper ol,
+.fund-round-wrapper ul { padding-bottom: 30px; }
+.fund-round-wrapper li { font-size: 20px; }
+
+@media(max-width: 991px) {
+	.fund-round-wrapper { padding-top: 20px; }
+	.fund-round-wrapper .whitebg { padding: 50px; }
+	.fund-round-wrapper p,
+	.fund-round-wrapper li { font-size: 18px; }
+	.fund-round-wrapper h6 { font-size: 22px; }
+	.fund-round-wrapper h5,
+	.fund-round-wrapper h4 { font-size: 20px; }
+	
+}
+@media(max-width: 767px) {
+	.fund-round-wrapper .whitebg { padding: 30px 20px; }
+	.fund-round-wrapper p,
+	.fund-round-wrapper li { font-size: 16px; }
+	
+}
+
+
+
+
+
+
+
+.Enroll-Yourself { padding-top: 60px; padding-bottom: 60px; }
+.Enroll-Yourself h2 { padding-bottom: 30px; text-align: center; }
+.Enroll-Yourself .container { max-width: 1000px; }
+.iconbox { width: 80px; height: 80px; background: #007b94; background: linear-gradient(90deg, #00728b 20%, #00435d 100%); position: relative; }
+.iconbox img { position: absolute; top:0; left:0; right:0; bottom:0; margin: auto; max-width: 50px; max-height: 40px; }
+.award-text { padding: 10px 20px; }
+.award-text h4 { padding:0; font-size: 28px; }
+.award-wrap { margin: 0 -20px; }
+.contactus-addres-dvl .col-12,
+.award-wrap .col-6 { padding: 10px 20px; }
+
+
+.link-title { font-size: 24px; }
+.linkbox a { font-size: 32px; color: #000; text-decoration: none; }
+.linkbox a:hover { text-decoration: underline; }
+.contactus-address .address-dvl {font-size: 27px; }
+.contactus-addres-dvl .award-text { width: calc(100% - 80px); }
+@media(max-width: 991px) {
+	.link-title { font-size: 20px; }
+	.linkbox a { font-size: 24px; }
+	.iconbox { width: 60px; height: 60px; }
+	.iconbox img { max-width: 30px; }
+	.contactus-addres-dvl .award-text { width: calc(100% - 60px); padding-right: 0; }
+	
+}
+@media(max-width: 767px) {
+	.link-title { font-size: 18px; }
+	.linkbox a { font-size: 20px; }
+	.iconbox { width: 40px; height: 40px; }
+	.iconbox img { max-width: 20px; }
+	.contactus-addres-dvl .award-text { width: calc(100% - 40px); padding-right: 0; }
+	.Enroll-Yourself h2 { padding-bottom: 10px; }
+	
+}
+/*
+box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0;
+
+background: #007b94; background: linear-gradient(180deg, #00728b 20%, #00435d 100%);
+*/

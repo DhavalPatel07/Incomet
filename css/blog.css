@@ -1,0 +1,59 @@
+/* ----- Blog post ----- */
+.blog-section .white-container { margin-top: -100px; padding: 40px 50px; padding-bottom: 250px; box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0; }
+.post-img { width: 100%; margin-bottom: 20px; }
+.post-img a { padding-bottom: 50%; width: 100%; display: block; text-decoration: none; }
+.blog-wrapper .line { margin: 10px 0 20px; }
+.blog-wrapper p { font-size: 16px; line-height: 1.2; }
+.blog-wrapper { margin: 0 -20px; }
+.post-dvl { padding: 20px; }
+.post-dvl h4 { padding-bottom: 10px; }
+.post-dvl .line { max-width: 120px; }
+.blog-wrapper a { text-decoration: none; }
+
+
+.artical-post .blog-wrap { background: #00bcd6; background: linear-gradient(90deg, #00bcd6 20%, #003f59 100%); padding: 30px 40px; margin-top: -200px; box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0; }
+.artical-post h2 { font-size: 26px; color: #fff; text-transform: uppercase; text-align: center; padding-bottom: 10px; }
+.artical-post p,
+.artical-post h4 a{ color: #fff; }
+.artical-post .ctmbtn a { background: #ffffff; color: #31334c; font-weight: 500; }
+.artical-post .ctmbtn a:hover { background: #31334c; color: #fff; }
+.artical-post .container { max-width: 1100px; }
+
+.recent-post { padding-top: 60px; padding-bottom: 60px; }
+.recent-post h2 { font-size: 26px; text-transform: uppercase; padding-bottom: 0; }
+
+.recent-post h4,
+.artical-post h4 { font-size: 20px; }
+
+.recent-post p,
+.artical-post p { font-size:  14px; line-height: 1.4; }
+.recent-post .ctmbtn a,
+.artical-post .ctmbtn a { font-size: 14px; padding: 10px 15px; } 
+
+@media(max-width: 1200px){
+	.blog-section .white-container { margin-top: 0; }
+	.artical-post .container { padding-left: 0; padding-right: 0; }
+	.blog-section .white-container { padding: 20px; }
+	.artical-post .blog-wrap { margin-top: 0; padding: 30px 20px; }
+	.post-dvl h4 { font-size: 22px; }
+}
+@media(max-width: 991px){
+	.col-3.post-dvl { width: 33.33%; }
+}
+@media(max-width: 767px){
+	.post-dvl,
+	.col-3.post-dvl { width: 50%; }
+}
+@media(max-width: 640px){
+	.post-dvl,
+	.col-3.post-dvl { width: 100%; }
+	.recent-post { padding-top: 50px; padding-bottom: 50px; }
+}
+/* ----- Blog post ----- */
+
+
+/*
+box-shadow: rgba(0, 0, 0, 0.4) 10px 0 20px 0;
+
+background: #007b94; background: linear-gradient(180deg, #00728b 20%, #00435d 100%);
+*/
