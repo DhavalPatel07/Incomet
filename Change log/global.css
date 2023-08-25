@@ -220,7 +220,7 @@ section { position: relative; z-index: 10; }
 .childmenu>a { position: relative; padding-right: 6px; }
 .childmenu>a:after {content: ''; position: absolute; top: 2px; bottom: 0; right: -10px; margin: auto; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #ffffff; }
 
-.hamburger-menu { width: 38px; height: 30px; padding: 5px; position: absolute; right: 20px; top: 20px; display: none;  }
+.hamburger-menu { width: 38px; height: 30px; padding: 5px; position: absolute; right: 20px; top: 26px; display: none;  }
 .hamburger-menu span {width: 100%; height: 3px; margin-bottom: 6px; background: #ffffff; display: block; border-radius: 0; transition: all 0.5s; -webkit-transition: all 0.5s; border-radius: 10px; }
 .hamburger-menu.active span:nth-child(1) {transform: rotate(45deg) translateY(7px) translateX(6px); -webkit-transform: rotate(45deg) translateY(7px) translateX(6px); }
 .hamburger-menu.active span:nth-child(2) {opacity: 0; }
@@ -253,6 +253,7 @@ section { position: relative; z-index: 10; }
 	.right-address .number a { font-size: 0; align-items: center; justify-content: center; height: 100%; }
 	.email-address ,
 	.right-address .number { width: 40px; height: 20px; padding: 0; text-align: center; }
+	.email-address { padding-top: 3px; }
 	.right-address .address { display: none; }
 	.con-wrap img { margin: 0 10px; }
 	.right-address .flex-wrap.no-wrap.align-center { justify-content: flex-end; padding-right: 50px; }
@@ -274,7 +275,7 @@ section { position: relative; z-index: 10; }
 }
 @media(max-width: 991px){
 	.left-logo { max-width: 180px; }
-	.hamburger-menu { top: 12px; }
+	.hamburger-menu { top: 17px; }
 	.menu-box { top: 14px; right: 26px; }
 }
 @media(max-width: 767px){
@@ -291,7 +292,7 @@ section { position: relative; z-index: 10; }
 	.right-address { position: relative; top: 2px; }
 	.menu-box { top: 6px; right: 20px; }
 	.right-address .flex-wrap.no-wrap.align-center { padding-right: 40px; }
-	.hamburger-menu { top: 4px; right: 16px; }
+	.hamburger-menu { top: 10px; right: 16px; }
 	.right-address .flex-wrap.no-wrap.align-center { right: 45px; }
 }
 /* --- Header --- */

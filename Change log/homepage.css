@@ -272,7 +272,6 @@
 	.Benefits-slider .slick-dots li:before { left: 25px; }
 	.Benefits-slider .slick-dots { max-width: 320px; }
 	.Benefits-slider .slick-dots li { height:28px; width: 28px; line-height: 1.5; }
-	.Benefits-slider .slick-dots li button { line-height: 20px; font-size: 14px; }
 	.Benefits-slider .slick-dots li:before { width: 50px; }
 }
 
